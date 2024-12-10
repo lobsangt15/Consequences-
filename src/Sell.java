@@ -118,8 +118,7 @@ public class Sell {
                 if (i == 2) {
                     System.out.println("You have successfully filed bankruptcy! No need to worry about paying back your loans");
                 } else {
-                    System.out.println("Your claim for bankruptcy has failed!");
-                    System.out.println("You have been sentenced to 10 years in prison for failure to pay back loans!");
+                    System.out.println("Your claim for bankruptcy has failed! \nYou have been sentenced to 10 years in prison for failure to pay back loans!");
                 }
             }
         }

@@ -15,7 +15,7 @@ public class Gambling {
 
     private void rigged() {
         if (winnings > 500000) { //user always wins first few bets inorder to make them crave to gamble and win more
-            outcome = (int)(Math.random() * 2 + 1);
+            outcome = (int)(Math.random() * 10 + 1);
         } else {
             outcome = (int)(Math.random() * 1 + 1);
         }
