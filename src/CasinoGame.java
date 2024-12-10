@@ -99,8 +99,6 @@ public class CasinoGame {
                 default ->
                     System.out.println("Invalid choice. Please choose a valid option.");
             }
-
-            System.out.println();
         }
         System.out.println("Game over! Better luck next time.");
     }
